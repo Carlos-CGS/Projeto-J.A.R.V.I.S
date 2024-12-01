@@ -236,7 +236,7 @@ class JarvisApp:
                                     os.system("start cmd.exe")
                                     falar("Abrindo o prompt de comando")
                                     self.parar_assistente()
-                                elif "Concertar internet" in comando:
+                                elif "Consertar internet" in comando:
                                     falar("Iniciando o solucionador de problemas de rede")
                                     os.system("msdt.exe /id NetworkDiagnosticsNetworkAdapter")
                                 elif "Abrir vs code" in comando:
