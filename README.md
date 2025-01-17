@@ -65,6 +65,23 @@ Com JARVIS, você tem um assistente flexível, eficiente e personalizável ao se
 - **Google API (Gemini):** Para buscas e respostas avançadas.
 - **OpenWeather API:** Para previsão do tempo.
 
+
+## Lista de todas as bibliotecas e dependências usadas no código:
+- **os**
+- **random**
+- **time**
+- **webbrowser**
+- **threading.Thread**
+- **datetime**
+- **requests**
+- **speech_recognition**
+- **pyttsx3**
+- **google.generativeai**
+- **tkinter**
+
+### Dependências adicionais:
+- **OpenWeather API** (requisição externa).
+
 ## Como Utilizar
 
 1. Clone o repositório:
