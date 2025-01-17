@@ -69,7 +69,7 @@ Com JARVIS, você tem um assistente flexível, eficiente e personalizável ao se
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/Carlos-CGS/Projeto-J.A.R.V.I.S.git
+    git clone https://github.com/Carlos-CGS/Projeto-JARVIS.git
     ```
 
 
