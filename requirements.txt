@@ -1,0 +1,11 @@
+os-sys
+random
+time
+webbrowser
+tkinter
+threading
+datetime
+requests
+SpeechRecognition
+pyttsx3
+google-generativeai
