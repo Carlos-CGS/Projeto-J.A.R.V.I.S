@@ -58,7 +58,7 @@ Com JARVIS, você tem um assistente flexível, eficiente e personalizável ao se
 
 ## Tecnologias Utilizadas
 
-- **Python**
+- **Python - Versão 3.12.2**
 - **tkinter:** Para a interface gráfica.
 - **pyttsx3:** Para a síntese de voz.
 - **speech_recognition:** Para o reconhecimento de voz.
