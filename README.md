@@ -88,7 +88,11 @@ Com JARVIS, você tem um assistente flexível, eficiente e personalizável ao se
     ```bash
     git clone https://github.com/Carlos-CGS/Projeto-JARVIS.git
     ```
-
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+    
 
 ## Contribuição
 
