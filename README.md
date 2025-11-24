@@ -1,110 +1,211 @@
-# Projeto J.A.R.V.I.S.
-
-## Descrição
-
-O J.A.R.V.I.S. é um assistente virtual inspirado no famoso assistente do Homem de Ferro. Desenvolvido em Python, ele realiza diversas funções, desde conversas simples até tarefas mais complexas, como buscas na web e previsão do tempo.\
-JARVIS é um assistente virtual inteligente que combina **reconhecimento de voz**, **síntese de voz (Text-to-Speech)**, e **integrações avançadas com APIs** para oferecer uma experiência interativa e eficiente. Ele responde a comandos de voz e executa diversas ações no seu computador, além de responder a perguntas com precisão.
+# 🛰️ J.A.R.V.I.S. – Virtual Assistant in Python  
+> Um assistente virtual inteligente, totalmente controlado por voz, desenvolvido em Python como parte do projeto **CodeVerse Python 2025**.
 
 ![Banner do Projeto](./Jarvis_banner.png)
 
-## Funcionalidades
+---
 
-- **Apresentação inicial:** Ao iniciar, JARVIS se apresenta informando a data, hora e a temperatura atual na sua cidade.
-- **Reação ao comando 'Jarvis':** Sempre que o nome JARVIS é pronunciado, ele reage com uma das sete respostas aleatórias, como:
-  ```
-  - "Como posso te ajudar?"
-  - "Sim senhor Carlos?"
-  - "Às suas ordens senhor?"
-  - "Pois não senhor?"
-  - "Estou aqui senhor?"
-  - "O que posso fazer pelo senhor?"
-  - "Pronto senhor?
-  ```
+## 📖 Sobre o Projeto
 
-### Recursos Técnicos
-- **Reconhecimento de voz:** Converte sua fala em texto utilizando tecnologia de reconhecimento de fala.
-- **Síntese de voz (Text-to-Speech):** Responde suas perguntas e executa comandos falando de forma natural.
-- **Integração com Google API (Gemini):** Realiza buscas na web e fornece respostas detalhadas.
-- **Previsão do tempo:** Obtém dados climáticos em tempo real com a API do OpenWeather.
+O **J.A.R.V.I.S.** é um assistente virtual inspirado no universo do Homem de Ferro, projetado para entregar uma experiência dinâmica, responsiva e integrada.  
+Ele combina **reconhecimento de voz**, **síntese de voz**, **API de IA (Google Gemini)**, **previsão do tempo**, **memória contextual**, automações locais e uma interface gráfica amigável em Tkinter.
 
-### Comandos Suportados
-
-#### Navegação e Ferramentas
-- **Abrir Navegador:** Abre o navegador padrão com o comando de voz.
-- **Abrir Calculadora:** Inicializa a calculadora do sistema.
-- **Abrir Paint:** Abre o Paint.
-- **Abrir Bloco de Notas:** Executa o Bloco de Notas.
-- **Abrir Excel:** Inicia o Microsoft Excel.
-- **Abrir Word:** Inicia o Microsoft Word.
-- **Abrir CMD:** Abre o Prompt de Comando.
-- **Abrir VS Code:** Inicia o Visual Studio Code.
-- **Consertar Internet:** Executa o solucionador de problemas de rede para corrigir problemas de conexão.
-
-#### Consultas
-- **Que Horas São:** Informa a hora atual.
-- **Que Dia é Hoje:** Diz a data atual.
-- **Qual a Temperatura em [Cidade]:** Informa a temperatura atual da cidade solicitada utilizando a API do OpenWeather.
-
-#### Funcionalidades Específicas
-- **Pesquisar [Assunto]:** Faz uma pesquisa online e retorna a resposta. Caso o assunto não seja especificado, pergunta "Sobre o que deseja saber?"
-- **Iniciar Modo Conversa:** Permite um diálogo contínuo com respostas e novas perguntas, utilizando a API do Gemini.
-- **Reproduzir Música:** Abre o YouTube com a música solicitada.
-- **Transcrever:** Pergunta "Qual mensagem você deseja salvar?" e salva a resposta em um arquivo de texto na área de trabalho.
-- **Desligar Sistema:** Encerra o aplicativo com a mensagem "Desligando o sistema, até mais".
+Ideal para estudos, automação pessoal e portfólio profissional.
 
 ---
 
-Com JARVIS, você tem um assistente flexível, eficiente e personalizável ao seu alcance.
+# 🚀 Funcionalidades Principais
 
-## Tecnologias Utilizadas
+## 🎤 Wake Word Inteligente  
+Ativado pela palavra **“Jarvis”**, respondendo com variações como:
+- “Sim, senhor?”
+- “Às ordens.”
+- “Estou aqui.”
+- “Pronto para ajudar.”
 
-- **Python - Versão 3.12.2**
-- **tkinter:** Para a interface gráfica.
-- **pyttsx3:** Para a síntese de voz.
-- **speech_recognition:** Para o reconhecimento de voz.
-- **Google API (Gemini):** Para buscas e respostas avançadas.
-- **OpenWeather API:** Para previsão do tempo.
+---
 
+## 🎙️ Reconhecimento de Voz + Respostas Naturais  
+- O usuário fala → o JARVIS entende e executa.  
+- O sistema responde via **pyttsx3**.
 
-## Lista de todas as bibliotecas e dependências usadas no código:
-- **os**
-- **random**
-- **time**
-- **webbrowser**
-- **threading.Thread**
-- **datetime**
-- **requests**
-- **speech_recognition**
-- **pyttsx3**
-- **google.generativeai**
-- **tkinter**
+---
 
-### Dependências adicionais:
-- **OpenWeather API** (requisição externa).
+## 🧠 Memória Contextual Inteligente  
+- Armazena as **20 últimas interações**.  
+- Mostra histórico mediante comando.  
+- Sistema de anotações integrado.  
+- **Modo privado** impede registro de qualquer informação.
 
-## Como Utilizar
+Comandos:
+ativar modo privado
+desativar modo privado
+o que falamos hoje?
+registrar nota
 
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/Carlos-CGS/Projeto-JARVIS.git
-    ```
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-    
+---
 
-## Contribuição
+## 📝 Sistema de Anotações  
+Comando:  
+Ele pergunta o que salvar e registra em `notas_jarvis.txt`.
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests. Para mudanças maiores, por favor, abra uma discussão antes para que possamos alinhar as melhorias.
+---
 
-## Licença
+## 🌤️ Clima e Previsão (OpenWeather)  
+- Temperatura atual de qualquer cidade  
+- Previsão para o dia seguinte  
 
-Este projeto está licenciado sob a [MIT License]
+Exemplo:
+qual a temperatura em São Paulo?
+qual a previsão para amanhã no Rio de Janeiro?
 
-## Contato
+---
 
-- **LinkedIn:** [Carlos Garcia - CGS](https://www.linkedin.com/in/carlos-cgs/)
+## 🤖 Pesquisa Inteligente com Google Gemini  
+O Jarvis usa a API do Google Gemini para responder a qualquer pergunta no estilo:
 
-  ## Projeto Funcionando
-  Segue o link para uma postagem que fiz no meu LinkedIn com video deste aplicativo funcionando: https://www.linkedin.com/feed/update/urn:li:activity:7241385354061058048/
+- Máximo 25 palavras  
+- Tom educado, direto e profissional  
+
+Exemplo:
+pesquisar buracos negros
+perguntar como funciona uma estrela
+
+---
+
+## 🎵 Playlists Inteligentes  
+Comando:
+tocar playlist
+
+O Jarvis pergunta:
+Deseja a playlist foco, estudo ou treino?
+E abre a playlist correspondente no YouTube.
+
+---
+
+## 🖥️ Abertura de Programas no Windows  
+Comandos disponíveis:
+- Abrir navegador  
+- Abrir calculadora  
+- Abrir Word  
+- Abrir Excel  
+- Abrir VS Code  
+
+---
+
+## 🕒 Informações do Sistema  
+- “Que horas são?”  
+- “Que dia é hoje?”  
+
+---
+
+## ⛔ Encerramento Seguro  
+Comando:
+desligar
+encerrar
+
+O sistema fecha a interface e encerra o assistente.
+
+---
+
+## 🖥️ Interface Gráfica (Tkinter)
+
+- Janela compacta  
+- Visual minimalista  
+- Anel animado que muda de cor quando:
+  - está falando  
+  - está ouvindo  
+  - está ocioso  
+
+---
+
+## 🧩 Arquitetura do Projeto
+```Projeto-JARVIS/
+│
+├── jarvis.py # Código principal
+├── notas_jarvis.txt # Armazenamento das anotações
+├── Jarvis_banner.png # Banner do README
+├── requirements.txt # Dependências do projeto
+└── README.md # Documentação do repositório
+```
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Função |
+|-----------|--------|
+| **Python 3.12+** | Linguagem principal |
+| **Tkinter** | Interface gráfica |
+| **SpeechRecognition** | Reconhece fala |
+| **Pyttsx3** | Produz fala |
+| **Google Gemini API** | IA para pesquisas |
+| **Requests** | Consumo de APIs |
+| **OpenWeather API** | Clima e previsão |
+| **Threading** | Execução paralela |
+| **Webbrowser** | Abertura de links |
+| **Deque** | Memória contextual |
+
+---
+
+## 📦 Dependências (requirements.txt)
+
+```txt
+speechrecognition
+pyttsx3
+google-generativeai
+requests
+pyaudio
+```
+
+---
+## 🔧 Como Executar
+1️⃣ Clonar o repositório
+```
+git clone https://github.com/Carlos-CGS/Projeto-JARVIS.git
+cd Projeto-JARVIS
+```
+2️⃣ Instalar dependências
+```
+pip install -r requirements.txt
+```
+
+3️⃣ Adicionar suas chaves de API
+
+Abra jarvis.py e preencha:
+```
+OPENWEATHER_KEY = "SUA_CHAVE_OPENWEATHER"
+GEMINI_KEY = "SUA_CHAVE_GEMINI"
+```
+
+4️⃣ Executar
+```
+python jarvis.py
+```
+
+---
+## 🎥 Demonstração em Vídeo
+
+Veja o JARVIS funcionando:
+🔗 https://www.linkedin.com/feed/update/urn:li:activity:7241385354061058048/
+
+---
+## 🤝 Contribuições
+
+Contribuições são bem-vindas!
+Para mudanças maiores, abra uma issue antes para alinharmos as melhorias.
+
+---
+## 📜 Licença
+
+Projeto disponibilizado sob a MIT License.
+
+--- 
+## 📬 Contato
+
+👤 Carlos Garcia – Desenvolvedor Full Stack em formação/
+
+🔗 LinkedIn: https://www.linkedin.com/in/carlos-cgs/
+
+📦 GitHub: https://github.com/Carlos-CGS/
+
