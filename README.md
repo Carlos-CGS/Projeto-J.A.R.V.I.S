@@ -6,7 +6,7 @@
 ---
 
 ## 📖 Sobre o Projeto
-
+<img src="./capa.png" height="300px" width="100%">
 O **J.A.R.V.I.S.** é um assistente virtual inspirado no universo do Homem de Ferro, projetado para entregar uma experiência dinâmica, responsiva e integrada.  
 Ele combina **reconhecimento de voz**, **síntese de voz**, **API de IA (Google Gemini)**, **previsão do tempo**, **memória contextual**, automações locais e uma interface gráfica amigável em Tkinter.
 
