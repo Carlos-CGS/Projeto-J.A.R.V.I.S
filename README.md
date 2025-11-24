@@ -14,9 +14,9 @@ Ideal para estudos, automação pessoal e portfólio profissional.
 
 ---
 
-# 🚀 Funcionalidades Principais
+## 🚀 Funcionalidades Principais
 
-## 🎤 Wake Word Inteligente  
+### 🎤 Wake Word Inteligente  
 Ativado pela palavra **“Jarvis”**, respondendo com variações como:
 - “Sim, senhor?”
 - “Às ordens.”
@@ -25,13 +25,13 @@ Ativado pela palavra **“Jarvis”**, respondendo com variações como:
 
 ---
 
-## 🎙️ Reconhecimento de Voz + Respostas Naturais  
+### 🎙️ Reconhecimento de Voz + Respostas Naturais  
 - O usuário fala → o JARVIS entende e executa.  
 - O sistema responde via **pyttsx3**.
 
 ---
 
-## 🧠 Memória Contextual Inteligente  
+### 🧠 Memória Contextual Inteligente  
 - Armazena as **20 últimas interações**.  
 - Mostra histórico mediante comando.  
 - Sistema de anotações integrado.  
@@ -45,13 +45,13 @@ registrar nota
 
 ---
 
-## 📝 Sistema de Anotações  
+### 📝 Sistema de Anotações  
 Comando:  
 Ele pergunta o que salvar e registra em `notas_jarvis.txt`.
 
 ---
 
-## 🌤️ Clima e Previsão (OpenWeather)  
+### 🌤️ Clima e Previsão (OpenWeather)  
 - Temperatura atual de qualquer cidade  
 - Previsão para o dia seguinte  
 
@@ -61,7 +61,7 @@ qual a previsão para amanhã no Rio de Janeiro?
 
 ---
 
-## 🤖 Pesquisa Inteligente com Google Gemini  
+### 🤖 Pesquisa Inteligente com Google Gemini  
 O Jarvis usa a API do Google Gemini para responder a qualquer pergunta no estilo:
 
 - Máximo 25 palavras  
@@ -73,7 +73,7 @@ perguntar como funciona uma estrela
 
 ---
 
-## 🎵 Playlists Inteligentes  
+### 🎵 Playlists Inteligentes  
 Comando:
 tocar playlist
 
@@ -83,7 +83,7 @@ E abre a playlist correspondente no YouTube.
 
 ---
 
-## 🖥️ Abertura de Programas no Windows  
+### 🖥️ Abertura de Programas no Windows  
 Comandos disponíveis:
 - Abrir navegador  
 - Abrir calculadora  
@@ -93,13 +93,13 @@ Comandos disponíveis:
 
 ---
 
-## 🕒 Informações do Sistema  
+### 🕒 Informações do Sistema  
 - “Que horas são?”  
 - “Que dia é hoje?”  
 
 ---
 
-## ⛔ Encerramento Seguro  
+### ⛔ Encerramento Seguro  
 Comando:
 desligar
 encerrar
