@@ -1,5 +1,5 @@
 # 🛰️ J.A.R.V.I.S. – Virtual Assistant in Python  
-> Um assistente virtual inteligente, totalmente controlado por voz, desenvolvido em Python como parte do projeto **CodeVerse Python 2025**.
+> Um assistente virtual inteligente, totalmente controlado por voz, desenvolvido em Python como parte do projeto **CodeVersePython2025**.
 
 ![Banner do Projeto](./Jarvis_banner.png)
 
